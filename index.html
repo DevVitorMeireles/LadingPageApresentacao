@@ -173,7 +173,7 @@
       .section-sobre {
         background: linear-gradient(135deg, #1565c0 0%, #1976d2 100%);
       }
-      
+
       .section-video {
         background: linear-gradient(135deg, #263238 0%, #37474f 100%);
       }
@@ -226,6 +226,14 @@
         color: #b0bec5;
         font-size: 1.1rem;
         line-height: 1.8;
+      }
+
+      .video-placeholder iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
       }
 
       .section-servicos {
@@ -478,8 +486,14 @@
               <div class="video-placeholder">
                 <div class="video-placeholder-content">
                   <div class="video-placeholder-text">
-                    </iframe>
-                    <iframe width="1161" height="653" src="https://www.youtube.com/embed/6aQWjvrsnng" title="DESAFIO 4 0   VÍDEO COMPLETO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe
+                      src="https://www.youtube.com/embed/6aQWjvrsnng"
+                      title="DESAFIO 4 0   VÍDEO COMPLETO"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
                   </div>
                 </div>
               </div>
@@ -1041,4 +1055,3 @@
     </script>
   </body>
 </html>
-
